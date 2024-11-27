@@ -30,6 +30,25 @@ body {
     padding: 10px;
 }
 
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#terminal .welcome-gif {
+    max-width: 400px !important;
+    height: auto !important;
+    margin: 10px 0;
+}
+
+/* If the above doesn't work, try this more specific version */
+.terminal-container #terminal .welcome-container .welcome-gif {
+    max-width: 400px !important;
+    height: auto !important;
+    margin: 10px 0;
+}
+
 .prompt {
     color: var(--green);
 }
