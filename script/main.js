@@ -146,7 +146,7 @@ contact      - Get my contact information
 experience   - View my professional experience
 github       - Visit my GitHub profile
 linkedin     - Visit my LinkedIn profile
-projects     - View my projects
+projects     - View my projects and activity
 skills       - Some of my favorite tools and skills are
 speaking     - View my speaking engagements
 thoughtwork  - View my thoughtwork and talks
@@ -171,9 +171,25 @@ thoughtwork  - View my thoughtwork and talks
     showProjects() {
         const projects = `
 <pre>
-My Projects:
+My Projects and Activity:
 ------------
-- GitHub public stats: <a href="https://github.com/GangGreenTemperTatum/GangGreenTemperTatum?tab=readme-ov-file#-stats" target="_blank">@GangGreenTemperTatum GitHub public stats</a>
+- GitHub public stats: <a href="https://github.com/GangGreenTemperTatum?tab=repositories&type=source" target="_blank">My Repositories</a>
+- Recent contributions: <a href="https://github.com/GangGreenTemperTatum?tab=repositories&q=&type=fork" target="_blank">My Forks</a>
+- Pull Requests: <a href="https://github.com/pulls?q=is%3Apr+author%3AGangGreenTemperTatum" target="_blank">My PRs</a>
+- Activity Overview: <a href="https://github.com/GangGreenTemperTatum?tab=overview" target="_blank">My GitHub Activity</a>
+- GitHub Stats: <a href="https://github.com/GangGreenTemperTatum?tab=achievements" target="_blank">My Achievements</a>
+- Stars Given: <a href="https://github.com/GangGreenTemperTatum?tab=stars" target="_blank">My Starred Repos</a>
+- Discussions: <a href="https://github.com/GangGreenTemperTatum?tab=discussions" target="_blank">My Discussions</a>
+- Issues Created: <a href="https://github.com/issues?q=is%3Aissue+author%3AGangGreenTemperTatum" target="_blank">My Issues</a>
+- Issue Comments: <a href="https://github.com/issues?q=commenter%3AGangGreenTemperTatum" target="_blank">My Comments</a>
+- Gists: <a href="https://gist.github.com/GangGreenTemperTatum" target="_blank">My Gists</a>
+- Followers: <a href="https://github.com/GangGreenTemperTatum?tab=followers" target="_blank">My Followers</a>
+- Following: <a href="https://github.com/GangGreenTemperTatum?tab=following" target="_blank">Who I Follow</a>
+- Packages: <a href="https://github.com/GangGreenTemperTatum?tab=packages" target="_blank">My Packages</a>
+- Projects: <a href="https://github.com/GangGreenTemperTatum?tab=projects" target="_blank">My Project Boards</a>
+
+You can also check my GitHub profile README at:
+<a href="https://github.com/GangGreenTemperTatum/GangGreenTemperTatum?tab=readme-ov-file#-stats" target="_blank">@GangGreenTemperTatum GitHub public stats</a>
 </pre>
 `;
         this.writeOutput(projects);
