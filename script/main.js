@@ -162,8 +162,6 @@ thoughtwork  - View my thoughtwork and talks
 <p>My work focuses on breaking boundaries and identifying emerging exploits in AI systems and pipelines, building adversarial capabilities by harnessing machine learning, and securing AI systems while developing robust AI models.</p>
 <p>I love problem solving and harnessing code to conjure creative chaos. I'm  all about <strong>think evil; do good</strong>.</p>
 <p>I'm also a founder and technical lead for the OWASP Top 10 for LLM Applications project, an OWASP chapter leader in Toronto and a member of the Defcon AppSec village council and member of the MITRE AI working group.</p>
-<br>
-<p>Checkout my recent Hacker Spotlight <a href="https://www.bugcrowd.com/blog/hacker-spotlight-ads-dawson/" target="_blank">@Bugcrowd Interview</a></p>
 `;
         this.writeOutput(about);
     }
@@ -228,8 +226,10 @@ My Experience:
 My thoughtwork:
 ----------------
 1. Gists: <a href="https://gist.github.com/GangGreenTemperTatum" target="_blank">@GangGreenTemperTatum Gists</a>
-2. Cohere Author: <a href="https://cohere.com/blog/authors/adsdawson" target="_blank">Cohere Author Page</a>
-3. Writeups: <a href="https://github.com/GangGreenTemperTatum/CTFs/tree/main/Walkthroughs" target="_blank">CTF Writeups</a>
+2. Hacker Spotlight: <a href="https://www.bugcrowd.com/blog/hacker-spotlight-ads-dawson/" target="_blank">@Bugcrowd Interview</a>
+3. Inside The Mind of a Hacker 2024: <a href="https://www.bugcrowd.com/blog/inside-the-mind-of-a-hacker-2024-edition/" target="_blank">@Bugcrowd Feature</a>
+4. Cohere Author: <a href="https://cohere.com/blog/authors/adsdawson" target="_blank">Cohere Author Page</a>
+5. Writeups: <a href="https://github.com/GangGreenTemperTatum/CTFs/tree/main/Walkthroughs" target="_blank">CTF Writeups</a>
 </pre>
 `;
         this.writeOutput(thoughtwork);

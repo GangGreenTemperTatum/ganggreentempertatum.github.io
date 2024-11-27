@@ -38,6 +38,8 @@ Page available at https://ganggreentempertatum.github.io/.
 
 ## 📰 Recent Features
 - [Hacker Spotlight @Bugcrowd Interview](https://www.bugcrowd.com/blog/hacker-spotlight-ads-dawson/)
+- [Inside the mind of a hacker @Bugcrowd feature](https://www.bugcrowd.com/blog/inside-the-mind-of-a-hacker-2024-edition/)
+- [Speaking/Podcasts](https://github.com/GangGreenTemperTatum/speaking)
 - [Cohere Author Page](https://cohere.com/blog/authors/adsdawson)
 
 ## 🛡️ Skills
