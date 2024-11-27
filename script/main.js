@@ -171,6 +171,11 @@ thoughtwork  - View my thoughtwork and talks
     showProjects() {
         const projects = `
 <pre>
+Profile Summary:
+--------------
+View my interactive GitHub profile analytics at:
+<a href="https://profile-summary-for-github.com/user/GangGreenTemperTatum" target="_blank">https://profile-summary-for-github.com/user/GangGreenTemperTatum</a>
+
 My Projects and Activity:
 ------------
 - GitHub public stats: <a href="https://github.com/GangGreenTemperTatum?tab=repositories&type=source" target="_blank">My Repositories</a>
@@ -187,6 +192,15 @@ My Projects and Activity:
 - Following: <a href="https://github.com/GangGreenTemperTatum?tab=following" target="_blank">Who I Follow</a>
 - Packages: <a href="https://github.com/GangGreenTemperTatum?tab=packages" target="_blank">My Packages</a>
 - Projects: <a href="https://github.com/GangGreenTemperTatum?tab=projects" target="_blank">My Project Boards</a>
+
+Visualizations:
+--------------
+<!--- GitHub Skyline (3D contrib graph): <a href="https://skyline.github.com/GangGreenTemperTatum/2023" target="_blank">My 2023 Skyline</a>-->
+- GitHub Profile Summary: <a href="https://profile-summary-for-github.com/user/GangGreenTemperTatum" target="_blank">Profile Summary</a>
+- GitHub Streak Stats: <a href="https://github-readme-streak-stats.herokuapp.com/?user=GangGreenTemperTatum" target="_blank">Contribution Streak</a>
+- GitHub Stats Card: <a href="https://github-readme-stats.vercel.app/api?username=GangGreenTemperTatum&show_icons=true&theme=gruvbox" target="_blank">Stats Dashboard</a>
+- Top Languages: <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=GangGreenTemperTatum&layout=compact&theme=gruvbox" target="_blank">Language Stats</a>
+- Contribution Graph: <a href="https://github-contribution-graph.vercel.app/graph?username=GangGreenTemperTatum" target="_blank">Activity Graph</a>
 
 You can also check my GitHub profile README at:
 <a href="https://github.com/GangGreenTemperTatum/GangGreenTemperTatum?tab=readme-ov-file#-stats" target="_blank">@GangGreenTemperTatum GitHub public stats</a>
