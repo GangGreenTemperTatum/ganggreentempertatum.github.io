@@ -177,8 +177,17 @@ thoughtwork  - View my thoughtwork and talks
 <pre>
 Profile Summary:
 --------------
+Some notable projects I've worked on:
+
+- <a href="https://github.com/dreadnode/burpference" target="_blank">burpference</a>: A web application for identifying and reporting security vulnerabilities in Burp Suite.
+- <a href="https://github.com/dreadnode/robopages" target="_blank">Robopages</a>: Robopages are YAML based files for describing tools to large language models (LLMs). They simplify the process of defining and using external tools in LLM-powered applications. By leveraging the robopages-cli function calling server, developers can avoid the tedious task of manually writing JSON declarations for each tool.
+- <a href="https://github.com/GangGreenTemperTatum/DOMspy" target="_blank">DOMspy</a>: A typescript-based extension for identifying and reporting security vulnerabilities in web applications.
+- <a href="https://github.com/Addepar/RedFlag" target="_blank">Redflag:</a>: RedFlag leverages AI to determine high-risk code changes. Run it in batch mode to scope manual security testing of release candidates, or run it in your CI pipelines to flag PRs and add the appropriate reviewers.
+- <a href="https://github.com/OWASP/www-project-top-10-for-large-language-model-applications" target="_blank">OWASP Top 10 for LLM Applications:</a>: The OWASP Top 10 for Large Language Model Applications project is a community-driven effort to identify the top security risks for large language model applications.
+
 View my interactive GitHub profile analytics at:
 <a href="https://profile-summary-for-github.com/user/GangGreenTemperTatum" target="_blank">https://profile-summary-for-github.com/user/GangGreenTemperTatum</a>
+
 
 My Projects and Activity:
 ------------
