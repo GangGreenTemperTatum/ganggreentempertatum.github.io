@@ -32,12 +32,13 @@ class Terminal {
         const welcome = `
 <div class="welcome-container">
     <pre class="ascii-art">
-╔══════════════════════════════════════════╗
-║                 ads                      ║
-║         AI Security Researcher           ║
-║                                          ║
-║     Type 'help' for available commands   ║
-╚══════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════╗
+║                        ads                        ║
+║            Staff AI Security Researcher           ║
+║                                                  ║
+║        Type 'help' for available commands        ║
+║   GitHub: <a href="https://github.com/GangGreenTemperTatum" target="_blank">@GangGreenTemperTatum</a>          ║
+╚═══════════════════════════════════════════════════╝
     </pre>
     <img src="assets/nyan_cat_gif.gif" alt="Welcome Animation" class="welcome-gif" style="width: 400px;"/>
     <br>
@@ -45,6 +46,7 @@ class Terminal {
 </div>`;
         this.writeOutput(welcome);
     }
+
     createNewPrompt() {
         const promptLine = document.createElement('div');
         const promptSpan = document.createElement('span');
