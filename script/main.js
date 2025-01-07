@@ -32,14 +32,15 @@ class Terminal {
         const welcome = `
 <div class="welcome-container">
     <pre class="ascii-art">
-╔═══════════════════════════════════════════════════╗
-║                        ads                        ║
-║            Staff AI Security Researcher           ║
-║                                                  ║
-║        Type 'help' for available commands        ║
-║   GitHub: <a href="https://github.com/GangGreenTemperTatum" target="_blank">@GangGreenTemperTatum</a>          ║
-╚═══════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════╗
+║                           ads                              ║
+║               Staff AI Security Researcher                 ║
+║                                                           ║
+║           Type 'help' for available commands              ║
+║      GitHub: @GangGreenTemperTatum                        ║
+╚════════════════════════════════════════════════════════════╝
     </pre>
+    <div><a href="https://github.com/GangGreenTemperTatum" target="_blank">Visit my GitHub profile</a></div>
     <img src="assets/nyan_cat_gif.gif" alt="Welcome Animation" class="welcome-gif" style="width: 400px;"/>
     <br>
     <br>
@@ -168,9 +169,16 @@ thoughtwork  - View my thoughtwork and talks
 <p>Hi, I'm Ads Dawson, a Staff AI Security Researcher.</p>
 <p>I specialize in AI security, machine learning, and cybersecurity.</p>
 <p>My work focuses on breaking boundaries and identifying emerging exploits in AI systems and pipelines, building adversarial capabilities by harnessing machine learning, and securing AI systems while developing robust AI models.</p>
-<p>I love problem solving and harnessing code to conjure creative chaos. I'm  all about <strong>think evil; do good</strong>.</p>
-<p>I'm also a founder and technical lead for the OWASP Top 10 for LLM Applications project, an OWASP chapter leader in Toronto and a member of the Defcon AppSec village council and member of the MITRE AI working group.</p>
-`;
+<p>I love problem solving and harnessing code to conjure creative chaos. I'm all about <strong>think evil; do good</strong>.</p>
+<p>I'm stoked to serve in the following roles:</p>
+<ul>
+<li><a target="_blank" href="https://owasp.org/www-project-top-10-for-large-language-model-applications/">OWASP Top 10 for Large Language Model Applications - Core Team Technical Lead, Entry Lead Expert and Founder of the project</a></li>
+<li><a target="_blank" href="https://www.bugcrowd.com/blog/what-is-bugcrowds-hacker-advisory-board/">Member of the BugCrowd Hacker Advisory Board</a></li>
+<li><a target="_blank" href="https://owasp.org/www-chapter-vancouver/">OWASP Vancouver Chapter Lead</a></li>
+<li><a target="_blank" href="https://owasp.org/www-chapter-toronto/">OWASP Toronto Chapter Lead</a></li>
+<li><a target="_blank" href="https://www.appsecvillage.com/">Defcon AppSec Village Volunteer</a>
+<li><a target="_blank" href="https://cwe.mitre.org/community/working_groups.html">MITRE Artificial Intelligence Working Group (AI WG)</a></li>
+</ul>`;
         this.writeOutput(about);
     }
 
