@@ -33,11 +33,11 @@ class Terminal {
 <div class="welcome-container">
     <pre class="ascii-art">
 ╔════════════════════════════════════════════════════════════╗
-║                           ads                              ║
-║               Staff AI Security Researcher                 ║
-║                                                           ║
-║           Type 'help' for available commands              ║
-║      GitHub: @GangGreenTemperTatum                        ║
+║                            ads                             ║
+║                  Staff AI Security Researcher              ║
+║                                                            ║
+║               Type 'help' for available commands           ║
+║                  GitHub: @GangGreenTemperTatum             ║
 ╚════════════════════════════════════════════════════════════╝
     </pre>
     <div><a href="https://github.com/GangGreenTemperTatum" target="_blank">Visit my GitHub profile</a></div>
