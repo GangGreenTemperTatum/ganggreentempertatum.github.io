@@ -35,6 +35,7 @@ jobs:
           python -m pip install --upgrade pip
           pip cache purge
           pip install pydantic==2.9.1
+          pip install typer
           pip install rigging[all]
 
       # Generate the description using the diff
