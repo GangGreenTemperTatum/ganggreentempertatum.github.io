@@ -15,7 +15,7 @@ class Terminal {
             linkedin: () => window.open('https://linkedin.com/in/adamdawson0', '_blank'),
             projects: () => this.showProjects(),
             skills: () => this.showSkills(),
-            speaking: () => window.open('https://github.com/GangGreenTemperTatum/speaking', '_blank'),
+            speaking: () => window.open('https://ganggreentempertatum.github.io/speaking/', '_blank'),
             thoughtwork: () => this.showThoughtwork(),
         };
 
@@ -32,15 +32,14 @@ class Terminal {
         const welcome = `
 <div class="welcome-container">
     <pre class="ascii-art">
-╔════════════════════════════════════════════════════════════╗
-║                            ads                             ║
-║                  Staff AI Security Researcher              ║
-║                                                            ║
-║               Type 'help' for available commands           ║
-║                  GitHub: @GangGreenTemperTatum             ║
-╚════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════╗
+║                        ads                        ║
+║            Staff AI Security Researcher           ║
+║                                                  ║
+║        Type 'help' for available commands        ║
+║   GitHub: <a href="https://github.com/GangGreenTemperTatum" target="_blank">@GangGreenTemperTatum</a>          ║
+╚═══════════════════════════════════════════════════╝
     </pre>
-    <div><a href="https://github.com/GangGreenTemperTatum" target="_blank">Visit my GitHub profile</a></div>
     <img src="assets/nyan_cat_gif.gif" alt="Welcome Animation" class="welcome-gif" style="width: 400px;"/>
     <br>
     <br>
